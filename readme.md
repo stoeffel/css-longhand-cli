@@ -21,6 +21,10 @@ $ css-longhand --help
 
   Usage
     css-longhand <path/to/css> [path/to/out] --silent
+
+		[or]
+
+		cat <path/to/css> | css-longhand
 ```
 
 
