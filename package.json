@@ -1,0 +1,37 @@
+{
+  "name": "css-longhand-cli",
+  "version": "1.0.0",
+  "description": "CLI for css-longhand",
+  "license": "MIT",
+  "repository": "stoeffel/css-longhand-cli",
+  "author": {
+    "name": "Stoeffel",
+    "email": "christoph.hermann@kaba.com",
+    "url": "schtoeffel.ch"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "bin": {
+    "css-longhand": "cli.js"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "css",
+    "longhand",
+    "cli"
+  ],
+  "dependencies": {
+    "css-longhand": "^1.1.1",
+    "log-symbols": "^1.0.2",
+    "meow": "^3.3.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
